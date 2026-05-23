@@ -33,15 +33,7 @@ export default function Projects() {
 
         <div className="mt-12 flex items-center gap-3 font-mono text-[10px] uppercase tracking-meta text-cream-400">
           <span className="inline-block h-px flex-1 bg-ink-700/60" />
-          {p.endHint}{' '}
-          <a
-            href="https://github.com/EmiAndz"
-            target="_blank"
-            rel="noreferrer"
-            className="text-cream-100 hover-link"
-          >
-            github.com/EmiAndz ↗
-          </a>
+          <span className="text-center">{p.endHint}</span>
           <span className="inline-block h-px flex-1 bg-ink-700/60" />
         </div>
       </div>
