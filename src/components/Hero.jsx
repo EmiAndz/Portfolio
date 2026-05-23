@@ -9,10 +9,11 @@ const skills = [
 ]
 
 const lineUp = {
-  initial: { y: '110%' },
+  initial: { opacity: 0, y: 28 },
   animate: (i) => ({
+    opacity: 1,
     y: 0,
-    transition: { duration: 1.1, delay: 0.15 + i * 0.12, ease: [0.7, 0, 0.2, 1] },
+    transition: { duration: 0.9, delay: 0.15 + i * 0.12, ease: [0.7, 0, 0.2, 1] },
   }),
 }
 
@@ -122,17 +123,15 @@ export default function Hero() {
 
 function HeroLine({ children, i, italic, accent }) {
   return (
-    <span className="block overflow-hidden">
-      <motion.span
-        variants={lineUp}
-        initial="initial"
-        animate="animate"
-        custom={i}
-        className={`block text-[clamp(3rem,9.5vw,9rem)] ${italic ? 'italic font-normal' : ''} ${accent ? 'text-acid-400' : ''}`}
-      >
-        {children}
-      </motion.span>
-    </span>
+    <motion.span
+      variants={lineUp}
+      initial="initial"
+      animate="animate"
+      custom={i}
+      className={`block text-[clamp(3rem,9.5vw,9rem)] ${italic ? 'italic font-normal' : ''} ${accent ? 'text-acid-400' : ''}`}
+    >
+      {children}
+    </motion.span>
   )
 }
 
