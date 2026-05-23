@@ -248,7 +248,7 @@ export const dict = {
 }
 
 export const socials = [
-  { label: 'GitHub',    href: 'https://github.com/nortegaming', handle: '@nortegaming' },
+  { label: 'GitHub',    href: 'https://github.com/EmiAndz', handle: '@EmiAndz' },
   { label: 'LinkedIn',  href: '#',                              handle: 'in/emiandz' },
   { label: 'Instagram', href: '#',                              handle: '@emiandz' },
   { label: 'X',         href: '#',                              handle: '@emiandz' },

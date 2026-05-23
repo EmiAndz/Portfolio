@@ -35,12 +35,12 @@ export default function Projects() {
           <span className="inline-block h-px flex-1 bg-ink-700/60" />
           {p.endHint}{' '}
           <a
-            href="https://github.com/nortegaming"
+            href="https://github.com/EmiAndz"
             target="_blank"
             rel="noreferrer"
             className="text-cream-100 hover-link"
           >
-            github.com/nortegaming ↗
+            github.com/EmiAndz ↗
           </a>
           <span className="inline-block h-px flex-1 bg-ink-700/60" />
         </div>
