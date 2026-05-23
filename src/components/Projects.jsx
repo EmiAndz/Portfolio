@@ -62,7 +62,12 @@ function ProjectRow({ project }) {
       onMouseLeave={() => setHovered(false)}
       className="border-b border-ink-700/40 relative group"
     >
-      <a href={project.href} className="block py-9 md:py-11 relative overflow-hidden">
+      <a
+        href={project.href}
+        target={project.href?.startsWith('http') ? '_blank' : undefined}
+        rel={project.href?.startsWith('http') ? 'noreferrer' : undefined}
+        className="block py-9 md:py-11 relative overflow-hidden"
+      >
         <motion.div
           aria-hidden
           initial={{ x: '-100%' }}

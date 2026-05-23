@@ -80,6 +80,18 @@ export const dict = {
         },
         {
           n: '02',
+          title: 'NorteGaming',
+          subtitle: 'E-commerce premium / Gaming AR',
+          description:
+            'Storefront completo para el mercado argentino. Catálogo con búsqueda y filtros avanzados, carrito, checkout multi-step y wishlist. Roadmap: Supabase + Mercado Pago.',
+          stack: ['Next.js 16', 'TypeScript', 'Tailwind v4', 'React Context'],
+          year: '2026',
+          role: 'Full Stack',
+          status: 'En desarrollo',
+          href: 'https://github.com/EmiAndz/NorteGaming',
+        },
+        {
+          n: '03',
           title: 'Sistema de Gestión',
           subtitle: 'Dashboard interno / Alquileres',
           description:
@@ -88,19 +100,7 @@ export const dict = {
           year: '2026',
           role: 'Full Stack',
           status: 'Activo',
-          href: '#',
-        },
-        {
-          n: '03',
-          title: 'Proyecto sin nombre',
-          subtitle: 'En cocina lenta',
-          description:
-            'Algo que estoy explorando en silencio — relacionado con automatización para pymes del NEA. Detalles pronto, o escribime si tenés curiosidad.',
-          stack: ['Next.js', 'TBD'],
-          year: '2026',
-          role: '—',
-          status: 'WIP',
-          href: '#contacto',
+          href: 'https://github.com/EmiAndz/Sistema-gestion-de-alquileres',
         },
       ],
     },
@@ -203,6 +203,18 @@ export const dict = {
         },
         {
           n: '02',
+          title: 'NorteGaming',
+          subtitle: 'Premium e-commerce / Gaming AR',
+          description:
+            'Full storefront for the Argentine market. Catalog with advanced search and filtering, cart, multi-step checkout, and wishlist. Roadmap: Supabase + Mercado Pago.',
+          stack: ['Next.js 16', 'TypeScript', 'Tailwind v4', 'React Context'],
+          year: '2026',
+          role: 'Full Stack',
+          status: 'In progress',
+          href: 'https://github.com/EmiAndz/NorteGaming',
+        },
+        {
+          n: '03',
           title: 'Management System',
           subtitle: 'Internal dashboard / Rentals',
           description:
@@ -211,19 +223,7 @@ export const dict = {
           year: '2026',
           role: 'Full Stack',
           status: 'Active',
-          href: '#',
-        },
-        {
-          n: '03',
-          title: 'Unnamed project',
-          subtitle: 'Slow-cooked',
-          description:
-            "Something I'm exploring quietly — related to automation for small businesses in NEA. Details soon, or reach out if you're curious.",
-          stack: ['Next.js', 'TBD'],
-          year: '2026',
-          role: '—',
-          status: 'WIP',
-          href: '#contacto',
+          href: 'https://github.com/EmiAndz/Sistema-gestion-de-alquileres',
         },
       ],
     },
