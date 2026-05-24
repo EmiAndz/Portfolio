@@ -88,7 +88,7 @@ export default function About() {
                 src="/portrait.jpg"
                 alt="Emiliano Andrusyszyn"
                 loading="lazy"
-                className="absolute inset-0 w-full h-full object-cover scale-[1.55] origin-top grayscale-[35%] group-hover:grayscale-0 transition-all duration-700"
+                className="absolute inset-0 w-full h-full object-cover scale-[1.4] translate-y-[6%] origin-top grayscale-[35%] group-hover:grayscale-0 transition-all duration-700"
                 onError={(e) => { e.currentTarget.style.display = 'none' }}
               />
 
