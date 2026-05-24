@@ -83,8 +83,8 @@ export const dict = {
           title: 'NorteGaming',
           subtitle: 'E-commerce premium / Gaming AR',
           description:
-            'Storefront completo para el mercado argentino. Catálogo con búsqueda y filtros avanzados, carrito, checkout multi-step y wishlist. Roadmap: Supabase + Mercado Pago.',
-          stack: ['Next.js 16', 'TypeScript', 'Tailwind v4', 'React Context'],
+            'Storefront completo para el mercado argentino. Catálogo con búsqueda y filtros avanzados, carrito, checkout multi-step y wishlist. API REST propia con autenticación y persistencia.',
+          stack: ['Next.js', 'TypeScript', 'NestJS', 'Prisma', 'PostgreSQL'],
           year: '2026',
           role: 'Full Stack',
           status: 'En producción',
@@ -194,8 +194,8 @@ export const dict = {
           title: 'NorteGaming',
           subtitle: 'Premium e-commerce / Gaming AR',
           description:
-            'Full storefront for the Argentine market. Catalog with advanced search and filtering, cart, multi-step checkout, and wishlist. Roadmap: Supabase + Mercado Pago.',
-          stack: ['Next.js 16', 'TypeScript', 'Tailwind v4', 'React Context'],
+            'Full storefront for the Argentine market. Catalog with advanced search and filtering, cart, multi-step checkout, and wishlist. Custom REST API with authentication and persistence.',
+          stack: ['Next.js', 'TypeScript', 'NestJS', 'Prisma', 'PostgreSQL'],
           year: '2026',
           role: 'Full Stack',
           status: 'Shipped',
