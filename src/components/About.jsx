@@ -75,23 +75,36 @@ export default function About() {
             transition={{ duration: 0.8, delay: 0.15 }}
             className="md:col-span-5 md:col-start-8"
           >
-            <div className="aspect-[3/4] border border-ink-700 relative overflow-hidden bg-gradient-to-br from-ink-900 to-ink-850">
+            <div className="aspect-[3/4] border border-ink-700 relative overflow-hidden bg-gradient-to-br from-ink-900 to-ink-850 group">
+              {/* Monograma fallback (visible si no hay foto) */}
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="font-display text-[12rem] italic leading-none text-ink-700 select-none">
                   EA
                 </div>
               </div>
 
+              {/* Foto personal — drop en public/portrait.jpg */}
+              <img
+                src="/portrait.jpg"
+                alt="Emiliano Andrusyszyn"
+                loading="lazy"
+                className="absolute inset-0 w-full h-full object-cover grayscale-[35%] group-hover:grayscale-0 transition-all duration-700"
+                onError={(e) => { e.currentTarget.style.display = 'none' }}
+              />
+
+              {/* Vignette inferior para blendear con el tema oscuro */}
+              <div className="absolute inset-0 bg-gradient-to-t from-ink-950/70 via-transparent to-transparent pointer-events-none" />
+
               <Corner pos="top-left" />
               <Corner pos="top-right" />
               <Corner pos="bottom-left" />
               <Corner pos="bottom-right" />
 
-              <div className="absolute top-4 left-4 right-4 flex justify-between font-mono text-[10px] uppercase tracking-meta text-cream-400">
+              <div className="absolute top-4 left-4 right-4 flex justify-between font-mono text-[10px] uppercase tracking-meta text-cream-400 z-10">
                 <span>{a.portraitImg}</span>
                 <span>{a.portraitLabel}</span>
               </div>
-              <div className="absolute bottom-4 left-4 right-4 flex justify-between font-mono text-[10px] uppercase tracking-meta text-cream-400">
+              <div className="absolute bottom-4 left-4 right-4 flex justify-between font-mono text-[10px] uppercase tracking-meta text-cream-400 z-10">
                 <span>Posadas, AR</span>
                 <span className="text-acid-400">{a.portraitLive}</span>
               </div>
