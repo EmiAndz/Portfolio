@@ -1,6 +1,7 @@
 import { motion } from 'motion/react'
 import { useLang } from '../i18n/LangContext'
 import { socials, EMAIL } from '../i18n/dictionary'
+import CodeTerminal from './CodeTerminal'
 
 export default function Contact() {
   const { t } = useLang()
@@ -11,13 +12,6 @@ export default function Contact() {
       id="contacto"
       className="relative px-6 md:px-10 py-28 md:py-44 border-t border-ink-700/40 overflow-hidden"
     >
-      <div
-        aria-hidden
-        className="pointer-events-none absolute -bottom-10 -right-6 md:-right-16 font-display italic text-[14vw] leading-[0.8] text-ink-800 select-none"
-      >
-        {c.decoWord}
-      </div>
-
       <div className="mx-auto max-w-[1480px] relative">
         <p className="font-mono text-[11px] uppercase tracking-meta text-acid-400 flex items-center gap-3 mb-14">
           <span className="inline-block h-px w-8 bg-acid-400" />
@@ -91,6 +85,16 @@ export default function Contact() {
             </ul>
           </motion.div>
         </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: '-80px' }}
+          transition={{ duration: 0.9, delay: 0.25 }}
+          className="mt-20 md:mt-28 max-w-2xl"
+        >
+          <CodeTerminal />
+        </motion.div>
       </div>
     </section>
   )
