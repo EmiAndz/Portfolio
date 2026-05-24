@@ -32,7 +32,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6 }}
-          className="grid grid-cols-2 md:grid-cols-4 gap-5 font-mono text-[10px] uppercase tracking-meta text-cream-400"
+          className="grid grid-cols-4 gap-2 md:gap-5 font-mono text-[9px] md:text-[10px] uppercase tracking-[0.1em] md:tracking-meta text-cream-400"
         >
           <MetaCell label={h.metaPortfolio} value="v.001 / 2026" />
           <MetaCell label={h.metaLocation} value="Posadas, AR" />
@@ -137,12 +137,12 @@ function HeroLine({ children, i, italic, accent }) {
 
 function MetaCell({ label, value }) {
   return (
-    <div>
-      <div className="text-cream-100 mb-1 flex items-center gap-2">
-        <span className="inline-block h-px w-3 bg-cream-400" />
-        {label}
+    <div className="min-w-0">
+      <div className="text-cream-100 mb-1 flex items-center gap-1.5 md:gap-2">
+        <span className="hidden md:inline-block h-px w-3 bg-cream-400" />
+        <span>{label}</span>
       </div>
-      <div className="text-cream-400 pl-5">{value}</div>
+      <div className="text-cream-400 md:pl-5 leading-tight">{value}</div>
     </div>
   )
 }
