@@ -83,18 +83,12 @@ export default function Contact() {
                 </li>
               ))}
             </ul>
+
+            <div className="mt-10">
+              <CodeTerminal />
+            </div>
           </motion.div>
         </div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 24 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-80px' }}
-          transition={{ duration: 0.9, delay: 0.25 }}
-          className="mt-20 md:mt-28 max-w-2xl"
-        >
-          <CodeTerminal />
-        </motion.div>
       </div>
     </section>
   )
