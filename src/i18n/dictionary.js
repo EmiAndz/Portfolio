@@ -34,7 +34,7 @@ export const dict = {
       headlineB: 'en partes iguales',
       headlineC: ', con un sesgo claro hacia los detalles que la mayoría omite.',
       bio1:
-        'Soy Emi — desarrollador full stack. Trabajo en la intersección de diseño y código, construyendo productos que se sienten tan bien como funcionan. Me apoyo en inteligencia artificial para acelerar y optimizar el desarrollo sin perder criterio ni calidad.',
+        'Soy Emiliano — desarrollador full stack. Trabajo en la intersección de diseño y código, construyendo productos que se sienten tan bien como funcionan. Me apoyo en inteligencia artificial para acelerar y optimizar el desarrollo sin perder criterio ni calidad.',
       bio2:
         'Me obsesiona la performance, la tipografía y los micro-momentos que convierten una interfaz "funcional" en algo memorable. Si tu producto necesita ese empujón, hablemos.',
       quote: '"Los detalles no son extra. Son el producto."',
@@ -145,7 +145,7 @@ export const dict = {
       headlineB: 'in equal parts',
       headlineC: ', with a clear bias toward the details most people skip.',
       bio1:
-        "I'm Emi — a full stack developer. I work at the intersection of design and code, building products that feel as good as they work. I leverage AI to speed up and optimize development without losing judgment or quality.",
+        "I'm Emiliano — a full stack developer. I work at the intersection of design and code, building products that feel as good as they work. I leverage AI to speed up and optimize development without losing judgment or quality.",
       bio2:
         'I am obsessed with performance, typography, and the micro-moments that turn a "functional" interface into something memorable. If your product needs that push, let us talk.',
       quote: '"Details are not extras. They are the product."',
