@@ -13,7 +13,7 @@ export default function Contact() {
     >
       <div
         aria-hidden
-        className="pointer-events-none absolute -bottom-10 -right-6 md:-right-16 font-display italic text-[22vw] leading-[0.8] text-ink-800 select-none"
+        className="pointer-events-none absolute -bottom-10 -right-6 md:-right-16 font-display italic text-[14vw] leading-[0.8] text-ink-800 select-none"
       >
         {c.decoWord}
       </div>

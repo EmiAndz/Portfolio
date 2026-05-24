@@ -103,7 +103,7 @@ export const dict = {
       datumStatus: 'Estado',
       statusValue: '● Aceptando proyectos',
       socialsLabel: 'En otras redes',
-      decoWord: 'hola.',
+      decoWord: 'construyamos.',
     },
     footer: {
       builtWith: 'Construido con',
@@ -214,7 +214,7 @@ export const dict = {
       datumStatus: 'Status',
       statusValue: '● Open to projects',
       socialsLabel: 'Elsewhere',
-      decoWord: 'hello.',
+      decoWord: "let's build.",
     },
     footer: {
       builtWith: 'Built with',
