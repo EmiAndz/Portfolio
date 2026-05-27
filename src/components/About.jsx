@@ -73,7 +73,7 @@ export default function About() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: '-100px' }}
             transition={{ duration: 0.8, delay: 0.15 }}
-            className="md:col-span-5 md:col-start-8"
+            className="md:col-span-4 md:col-start-9"
           >
             <div className="aspect-[3/4] border border-ink-700 relative overflow-hidden bg-gradient-to-br from-ink-900 to-ink-850 group">
               {/* Monograma fallback (visible si no hay foto) */}
